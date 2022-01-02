@@ -2,17 +2,13 @@
 
 
 OS, tools and software:
-
-![archlinux](https://user-images.githubusercontent.com/76775163/147862636-235c8568-0818-42dd-a3c3-e4da2f9113e4.png)
-![neovim](https://user-images.githubusercontent.com/76775163/147862640-de758c73-d42f-4b67-9c99-7eb794a6e974.png)
-![obsidian](https://user-images.githubusercontent.com/76775163/147862641-3fb03cad-b551-4302-a46f-5b7baf7ed64a.png)
-![latex](https://user-images.githubusercontent.com/76775163/147862647-9afbc849-ff17-4ba9-8d8c-beb78e00b580.png)
+![archlinux(2)](https://user-images.githubusercontent.com/76775163/147884400-21d5734d-fbe2-4e18-852a-cc57fe22d6b7.png)
+![neovim](https://user-images.githubusercontent.com/76775163/147884404-73c88205-db15-4c14-a266-3e0c1dd457d7.png)
+![latex](https://user-images.githubusercontent.com/76775163/147884407-0225cf6a-e068-4cdc-9051-a36af8a6e88e.png)
 
 used programming languages:
-
-![c](https://user-images.githubusercontent.com/76775163/147862658-e7e11c43-7c1a-415e-bd41-b856c36d727f.png)
-![java](https://user-images.githubusercontent.com/76775163/147862659-3cb8f35b-9733-49b4-a0d3-10bf092e1bff.png)
-![ocaml](https://user-images.githubusercontent.com/76775163/147862660-60f12d74-d61e-4cf6-a123-648bad448666.png)
-![octave](https://user-images.githubusercontent.com/76775163/147862661-6ade57fb-f258-4755-b7b5-50d6a9d997d7.png)
-![r](https://user-images.githubusercontent.com/76775163/147862662-b2524f32-1655-4707-8482-3a2d09dd487f.png)
-
+![c](https://user-images.githubusercontent.com/76775163/147884409-22b21ab0-794b-43aa-9cb0-e70a5a7fe639.png)
+![java](https://user-images.githubusercontent.com/76775163/147884411-008ce93a-a4b7-450b-82f1-4532efd18a29.png)
+![ocaml](https://user-images.githubusercontent.com/76775163/147884417-e37939d4-2ce1-4794-b442-1ea65a12bc4b.png)
+![octave](https://user-images.githubusercontent.com/76775163/147884421-68470abb-a28e-47f6-afeb-bb8f20e214b2.png)
+![r](https://user-images.githubusercontent.com/76775163/147884423-1f753c33-16b7-4e3d-8a8d-c64c37a0c565.png)
