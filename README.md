@@ -1,10 +1,26 @@
 
+Currently studying science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
 
+OS, tools and Software:
 
-OS, tools and software:
+<img src="https://img.shields.io/badge/-Bash-000000?style=for-the-badge&logo=GNU Bash&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Arch Linux-000000?style=for-the-badge&logo=Arch Linux&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-LaTeX-000000?style=for-the-badge&logo=LaTeX&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Neovim-000000?style=for-the-badge&logo=Neovim&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=Git&logoColor=white"/><br/>
 
-<img src="https://user-images.githubusercontent.com/76775163/147884400-21d5734d-fbe2-4e18-852a-cc57fe22d6b7.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884404-73c88205-db15-4c14-a266-3e0c1dd457d7.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884407-0225cf6a-e068-4cdc-9051-a36af8a6e88e.png" width="30" height="30">
+Used programming languages:
 
-used programming languages:
+<img src="https://img.shields.io/badge/-C-000000?style=for-the-badge&logo=C&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Java-000000?style=for-the-badge&logo=Java&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-OCaml-000000?style=for-the-badge&logo=OCaml&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Octave-000000?style=for-the-badge&logo=Octave&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-MySQL-000000?style=for-the-badge&logo=MySQL&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-R-000000?style=for-the-badge&logo=R&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Erlang-000000?style=for-the-badge&logo=Erlang&logoColor=white"/><br/>
 
-<img src="https://user-images.githubusercontent.com/76775163/147884409-22b21ab0-794b-43aa-9cb0-e70a5a7fe639.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884411-008ce93a-a4b7-450b-82f1-4532efd18a29.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884417-e37939d4-2ce1-4794-b442-1ea65a12bc4b.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884421-68470abb-a28e-47f6-afeb-bb8f20e214b2.png" width="30" height="30"> <img src="https://user-images.githubusercontent.com/76775163/147884423-1f753c33-16b7-4e3d-8a8d-c64c37a0c565.png" width="30" height="30">
+Extra software:
+
+<img src="https://img.shields.io/badge/-Notion-000000?style=for-the-badge&logo=Notion&logoColor=white"/><br/>
+<img src="https://img.shields.io/badge/-Obsidian-000000?style=for-the-badge&logo=Obsidian&logoColor=white"/><br/>
+
