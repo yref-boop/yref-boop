@@ -1,6 +1,6 @@
 # Hi!
 
-I'm currently a  computer science at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
+I'm currently a  computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
 and passionate about maths, tech, gaming and dnd
 
 - OS, tools and Software:
