@@ -5,7 +5,7 @@ and passionate about maths, tech, gaming and dnd
 
 - OS, tools and Software:
 
-  <img src="https://img.shields.io/badge/-Bash-161320?style=for-the-badge&logo=GNU Bash&logoColor=white"/> <img src="https://img.shields.io/badge/-Arch Linux-161320?style=for-the-badge&logo=Arch Linux&logoColor=white"/> <img src="https://img.shields.io/badge/-LaTeX-161320?style=for-the-badge&logo=LaTeX&logoColor=white"/> <img src="https://img.shields.io/badge/-Neovim-161320?style=for-the-badge&logo=Neovim&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-161320?style=for-the-badge&logo=Git&logoColor=white"/><br/>
+  <img src="https://img.shields.io/badge/-Bash-161320?style=for-the-badge&logo=GNU Bash&logoColor=white"/> <img src="https://img.shields.io/badge/-Arch Linux-161320?style=for-the-badge&logo=Arch Linux&logoColor=white"/> <img src="https://img.shields.io/badge/-LaTeX-161320?style=for-the-badge&logo=LaTeX&logoColor=white"/> <img src="https://img.shields.io/badge/-Neovim-161320?style=for-the-badge&logo=Neovim&logoColor=white"/> <img src="https://img.shields.io/badge/-Markdown-161320?style=for-the-badge&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-161320?style=for-the-badge&logo=Git&logoColor=white"/><br/>
 
 - Used programming languages:
 
