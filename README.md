@@ -1,10 +1,11 @@
-# Hi!
+# README
 
-I'm currently a  computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
+<image src="https://readme-typing-svg.herokuapp.com?&height=70&font=Source+Code+Pro&size=17&color=FFFFFF&multiline=true&&lines=hello+world!+(+´+▽+`+)ノ;i+am+an+aspiring+software+developer;with+still+so+much+to+learn+and+debug">
+
+  
+currently a  computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
 and passionate about maths, tech, gaming and dnd
-
-<image src="https://readme-typing-svg.herokuapp.com?font=SourceCodePro&size=16&color=FFFFFF&center=true&lines=hello+world!">
-
+  
 <p align="center">
   <img src="https://img.shields.io/badge/-Bash-302D41?style=for-the-badge&logo=GNU Bash&logoColor=white"/> <img src="https://img.shields.io/badge/-Arch Linux-302D41?style=for-the-badge&logo=Arch Linux&logoColor=white"/> <img src="https://img.shields.io/badge/-LaTeX-302D41?style=for-the-badge&logo=LaTeX&logoColor=white"/> <img src="https://img.shields.io/badge/-Neovim-302D41?style=for-the-badge&logo=Neovim&logoColor=white"/> <img src="https://img.shields.io/badge/-Markdown-302D41?style=for-the-badge&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-302D41?style=for-the-badge&logo=Git&logoColor=white"/><br/>
   <img src="https://img.shields.io/badge/-C-302D41?style=for-the-badge&logo=C&logoColor=white"/> <img src="https://img.shields.io/badge/-Java-302D41?style=for-the-badge&logo=Java&logoColor=white"/> <img src="https://img.shields.io/badge/-OCaml-302D41?style=for-the-badge&logo=OCaml&logoColor=white"/> <img src="https://img.shields.io/badge/-Octave-302D41?style=for-the-badge&logo=Octave&logoColor=white"/> <img src="https://img.shields.io/badge/-MySQL-302D41?style=for-the-badge&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/-R-302D41?style=for-the-badge&logo=R&logoColor=white"/> <img src="https://img.shields.io/badge/-Erlang-302D41?style=for-the-badge&logo=Erlang&logoColor=white"/><br/>
