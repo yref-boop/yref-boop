@@ -1,10 +1,13 @@
 # README
 
-<image src="https://readme-typing-svg.herokuapp.com?&height=70&font=Source+Code+Pro&size=17&color=FFFFFF&multiline=true&&lines=hello+world!+(+´+▽+`+)ノ;i+am+an+aspiring+software+developer;with+still+so+much+to+learn+and+debug">
+<image src="https://readme-typing-svg.herokuapp.com?duration=4000&width=550&height=70&font=Source+Code+Pro&size=17&color=FFFFFF&multiline=true&&lines=hello+world!+(+´+▽+`+)ノ;i+am+an+aspiring+software+developer;with+still+so+much+to+learn+and+debug+(+〃+▽+〃+)ゞ+">
 
-  
-currently a  computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
+
+- i am currently a computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
 and passionate about maths, tech, gaming and dnd
+- pronouns (he/him)
+- if you want to contact me fell free to do so by twitter or email!
+  
   
 <p align="center">
   <img src="https://img.shields.io/badge/-Bash-302D41?style=for-the-badge&logo=GNU Bash&logoColor=white"/> <img src="https://img.shields.io/badge/-Arch Linux-302D41?style=for-the-badge&logo=Arch Linux&logoColor=white"/> <img src="https://img.shields.io/badge/-LaTeX-302D41?style=for-the-badge&logo=LaTeX&logoColor=white"/> <img src="https://img.shields.io/badge/-Neovim-302D41?style=for-the-badge&logo=Neovim&logoColor=white"/> <img src="https://img.shields.io/badge/-Markdown-302D41?style=for-the-badge&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-302D41?style=for-the-badge&logo=Git&logoColor=white"/><br/>
