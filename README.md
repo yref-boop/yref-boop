@@ -2,12 +2,11 @@
 
 #### about me:
 - i am currently a computer science student at [Universidade da Coruña](https://www.udc.es) (A Coruña, Spain)
-
-- i am passionate about maths, tech, gaming and dnd
+- i am passionate about maths, tech, gaming and d&d
 - pronouns (he/him)
-- i use github to share my code, get inspiration and learn (and hopefully in some time contribubting on open source projects!)
-- if you want to contact me fell free to do so!
-  
+- i use github to share my code, get inspiration and learn (and hopefully in some time contributing on open source projects!)
+- if you want to contact me feel free to do so!
+
 
 #### basic tools:
 <img src="https://img.shields.io/badge/-Bash-302D41?style=for-the-badge&logo=GNU Bash&logoColor=white"/> <img src="https://img.shields.io/badge/-Arch Linux-302D41?style=for-the-badge&logo=Arch Linux&logoColor=white"/> <img src="https://img.shields.io/badge/-LaTeX-302D41?style=for-the-badge&logo=LaTeX&logoColor=white"/> <img src="https://img.shields.io/badge/-Neovim-302D41?style=for-the-badge&logo=Neovim&logoColor=white"/> <img src="https://img.shields.io/badge/-Markdown-302D41?style=for-the-badge&logo=Markdown&logoColor=white"/> <img src="https://img.shields.io/badge/-Git-302D41?style=for-the-badge&logo=Git&logoColor=white"/><br/>
