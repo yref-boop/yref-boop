@@ -6,6 +6,7 @@
 - pronouns (he/him)
 - i use github to share my code, get inspiration and learn (and hopefully in some time contributing on open source projects!)
 - i know english, galician and spanish and understand some basic french
+- i really don't like capitalizing text
 - if you want to contact me feel free to do so!
 
 
