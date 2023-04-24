@@ -3,9 +3,10 @@
 
 \documentclass[10pt, a4paper]{extarticle}
 
-    %%%%%%%%%%%%%%%%%%%%%%
-    %%%%%%% NAME %%%%%%%%%
-    %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% NAME %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
 % images
 \usepackage{tikz}
 
@@ -53,9 +54,9 @@
         100
     }
 
-    %%%%%%%%%%%%%%%%%%%%%%
-    %%%%%% SECTION %%%%%%%
-    %%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% SECTION %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 
     \newcommand{\leftcolumwidth}{
         0.22
@@ -70,8 +71,8 @@
     %%%%%%%%%%%%%%%%%%%%%%
     %%%%%%% NAME %%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%
-    \begin {flushright}
 
+    \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
         \vspace {0.35\baselineskip}
         \begin {minipage}[t]{0.6\textwidth}
@@ -83,7 +84,7 @@
             \vspace{0.2cm}
 
             {\fontsize{\topnamesizevalue}{\topnamesizevalue}{
-                \color{nametoptxt} \bf %\fontone
+                \color{nametoptxt} \bfseries
                 \!\!\MakeUppercase{yago}
             }}
 
@@ -105,13 +106,13 @@
         \hfill
         \begin {minipage}[t]{0.3\textwidth}
 
-            \faEnvelope  \ asdga@a.com
+            \faEnvelope  \hspace{4px} asdga@a.com
             \\[6pt]
-            \faPhone     \ XYXYXYXY
+            \faMobile    \hspace{7px} XYXYXYXY
             \\[6pt]
-            \faMapMarker \ Earth
+            \faMapMarker \hspace{7px} Earth
             \\[6pt]
-            \faGithub    \ yref-boop
+            \faGithub    \hspace{5px} yref-boop
 
         \end {minipage}
 
@@ -120,6 +121,25 @@
 
     \hfill
 
-    test
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% ABOUT ME %%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    \begin {flushleft}
+    \begin {minipage}[c]{\leftcolumwidth\textwidth}
+        TITLE
+    \end {minipage}
+        \begin {tikzpicture}
+            \hspace{-4px}
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (10.25,0);
+        \end {tikzpicture}
+    \end {flushleft}
+
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+
+        contents
+    \end {minipage}
+    \end {flushright}
 
 \end{document}
