@@ -2,7 +2,19 @@
 % \input{setup/packages.tex}
 
 \documentclass[10pt, a4paper]{extarticle}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%% NAME %%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+% images
 \usepackage{tikz}
+
+%icons
+\usepackage{fontawesome5}
+
+    \definecolor{namelines}{HTML}{
+        333333
+    }
 
     \definecolor{nametoptxt}{HTML}{
         7D92A1
@@ -41,6 +53,9 @@
         100
     }
 
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%% CONTACT %%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
@@ -48,7 +63,8 @@
     %%%%%%% NAME %%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%
 
-    \rightminipageonly{
+
+    \begin {minipage}[t]{0.6\textwidth}
 
         \begin {tikzpicture}
             \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
@@ -73,9 +89,19 @@
         \begin {tikzpicture}
             \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
         \end {tikzpicture}
-    }
+    \end {minipage}
+    \hfill
+    \vrule height 20px depth 70px
+    \hfill
+    \begin {minipage}[t]{0.3\textwidth}
 
-    \rule{\textwidth}{1pt}
+        \vfill
+        \faEnvelope  \ asdga@a.com\\
+        \faPhone     \ XYXYXYXY\\
+        \faMapMarker \ Earth\\
+        \faGithub    \ yref-boop\\
+        \vfill
 
+    \end {minipage}
 
 \end{document}
