@@ -54,54 +54,72 @@
     }
 
     %%%%%%%%%%%%%%%%%%%%%%
-    %%%%%% CONTACT %%%%%%%
+    %%%%%% SECTION %%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%
+
+    \newcommand{\leftcolumwidth}{
+        0.22
+    }
+    \newcommand{\rightcolumwidth}{
+        0.78
+    }
+
 
 \begin{document}
 
     %%%%%%%%%%%%%%%%%%%%%%
     %%%%%%% NAME %%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%
+    \begin {flushright}
 
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \vspace {0.35\baselineskip}
+        \begin {minipage}[t]{0.6\textwidth}
 
-    \begin {minipage}[t]{0.6\textwidth}
+            \begin {tikzpicture}
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+            \end {tikzpicture}
 
-        \begin {tikzpicture}
-            \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
-        \end {tikzpicture}
+            \vspace{0.2cm}
 
-        \vspace{0.2cm}
+            {\fontsize{\topnamesizevalue}{\topnamesizevalue}{
+                \color{nametoptxt} \bf %\fontone
+                \!\!\MakeUppercase{yago}
+            }}
 
-        {\fontsize{\topnamesizevalue}{\topnamesizevalue}{
-            \color{nametoptxt} \bf %\fontone
-            \!\!\MakeUppercase{yago}
-        }}
+            \vspace{0.3cm}
 
-        \vspace{0.3cm}
+            {\fontsize{\bottomnamesizevalue}{\bottomnamesizevalue}{
+                \color{namebottomtxt} %\bf %\fontone
+                \!\MakeUppercase{Fernández Rego}
+            }}
 
-        {\fontsize{\bottomnamesizevalue}{\bottomnamesizevalue}{
-            \color{namebottomtxt} %\bf %\fontone
-            \!\MakeUppercase{Fernandez Rego}
-        }}
+            \vspace{0.2cm}
 
-        \vspace{0.2cm}
+            \begin {tikzpicture}
+                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+            \end {tikzpicture}
+        \end {minipage}
+        \hfill
+        \vrule %height 20px depth 70px
+        \hfill
+        \begin {minipage}[t]{0.3\textwidth}
 
-        \begin {tikzpicture}
-            \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
-        \end {tikzpicture}
+            \faEnvelope  \ asdga@a.com
+            \\[6pt]
+            \faPhone     \ XYXYXYXY
+            \\[6pt]
+            \faMapMarker \ Earth
+            \\[6pt]
+            \faGithub    \ yref-boop
+
+        \end {minipage}
+
     \end {minipage}
-    \hfill
-    \vrule height 20px depth 70px
-    \hfill
-    \begin {minipage}[t]{0.3\textwidth}
+    \end {flushright}
 
-        \vfill
-        \faEnvelope  \ asdga@a.com\\
-        \faPhone     \ XYXYXYXY\\
-        \faMapMarker \ Earth\\
-        \faGithub    \ yref-boop\\
-        \vfill
+    \hfill
 
-    \end {minipage}
+    test
 
 \end{document}
