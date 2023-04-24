@@ -1,0 +1,81 @@
+% imports go in this file
+% \input{setup/packages.tex}
+
+\documentclass[10pt, a4paper]{extarticle}
+\usepackage{tikz}
+
+    \definecolor{nametoptxt}{HTML}{
+        7D92A1
+    }
+
+    \definecolor{namebottomtxt}{HTML}{
+        333333
+    }
+
+    \definecolor{nametoptxt}{HTML}{
+        7D92A1
+    }
+    \newcommand{\sectionlinethickness}{
+        1.3 pt
+    }
+
+    % size of the top name
+    % (units = pt)
+    \newcommand{\topnamesizevalue}{
+        23 pt
+    }
+
+    % size of the bottom name
+    % (units = pt)
+    \newcommand{\bottomnamesizevalue}{
+        15 pt
+    }
+
+    % stretch of the top name
+    \newcommand{\topnamestretch}{
+        400
+    }
+
+    % stretch of the bottom name
+    \newcommand{\bottomnamestretch}{
+        100
+    }
+
+
+\begin{document}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%% NAME %%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    \rightminipageonly{
+
+        \begin {tikzpicture}
+            \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+        \end {tikzpicture}
+
+        \vspace{0.2cm}
+
+        {\fontsize{\topnamesizevalue}{\topnamesizevalue}{
+            \color{nametoptxt} \bf %\fontone
+            \!\!\MakeUppercase{yago}
+        }}
+
+        \vspace{0.3cm}
+
+        {\fontsize{\bottomnamesizevalue}{\bottomnamesizevalue}{
+            \color{namebottomtxt} %\bf %\fontone
+            \!\MakeUppercase{Fernandez Rego}
+        }}
+
+        \vspace{0.2cm}
+
+        \begin {tikzpicture}
+            \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+        \end {tikzpicture}
+    }
+
+    \rule{\textwidth}{1pt}
+
+
+\end{document}
