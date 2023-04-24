@@ -3,6 +3,9 @@
 
 \documentclass[10pt, a4paper]{extarticle}
 
+% page margins
+\usepackage[left=0.6in, right=0.7in, top=0.6in, bottom=0.6in]{geometry}
+
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% NAME %%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +101,7 @@
             \vspace{0.2cm}
 
             \begin {tikzpicture}
-                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,1.8);
             \end {tikzpicture}
         \end {minipage}
         \hfill
@@ -119,25 +122,25 @@
     \end {minipage}
     \end {flushright}
 
-    \hfill
 
     %%%%%%%%%%%%%%%%%%%%%%
     %%%%% ABOUT ME %%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%
 
+    % title & separator
     \begin {flushleft}
     \begin {minipage}[c]{\leftcolumwidth\textwidth}
-        TITLE
+        \!\MakeUppercase{TITLE}
     \end {minipage}
         \begin {tikzpicture}
             \hspace{-4px}
-            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (10.25,0);
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
         \end {tikzpicture}
     \end {flushleft}
 
+    % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-
         contents
     \end {minipage}
     \end {flushright}
