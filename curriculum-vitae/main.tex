@@ -11,10 +11,13 @@
 %%%%%%%%%%%%%%%%%%%%%%
 
 % images
-\usepackage{tikz}
+\usepackage {tikz}
+
+% lorem ipsum
+\usepackage {lipsum}
 
 %icons
-\usepackage{fontawesome5}
+\usepackage {fontawesome5}
 
     \definecolor{namelines}{HTML}{
         333333
@@ -66,6 +69,21 @@
     }
     \newcommand{\rightcolumwidth}{
         0.78
+    }
+
+    \newcommand {\sectiontitle}[1] {
+        \begin {flushleft}
+        \begin {minipage}[c]{\leftcolumwidth\textwidth}
+            \begin {flushright}
+            \!\MakeUppercase {#1}
+            \hspace* {10px}
+            \end {flushright}
+        \end {minipage}
+            \begin {tikzpicture}
+                \hspace{-4px}
+                \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
+            \end {tikzpicture}
+        \end {flushleft}
     }
 
 
@@ -128,20 +146,12 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \begin {flushleft}
-    \begin {minipage}[c]{\leftcolumwidth\textwidth}
-        \!\MakeUppercase{TITLE}
-    \end {minipage}
-        \begin {tikzpicture}
-            \hspace{-4px}
-            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
-        \end {tikzpicture}
-    \end {flushleft}
+    \sectiontitle{title}
 
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-        contents
+        \lipsum[4]
     \end {minipage}
     \end {flushright}
 
