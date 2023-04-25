@@ -1,16 +1,8 @@
-% imports go in this file
-% \input{setup/packages.tex}
-
-\documentclass[10pt, a4paper]{extarticle}
+\documentclass [10pt, a4paper] {extarticle}
 
 % page margins
-\usepackage[left=0.6in, right=0.7in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage[left=0.6in, right=0.7in, top=0.6in, bottom=0.6in] {geometry}
 
-%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%% NAME %%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%
-
-% images
 \usepackage {tikz}
 
 % lorem ipsum
@@ -18,73 +10,81 @@
 
 %icons
 \usepackage {fontawesome5}
+\usepackage {wasysym}
 
-    \definecolor{namelines}{HTML}{
-        333333
-    }
+% no page number
+ \thispagestyle{empty}
 
-    \definecolor{nametoptxt}{HTML}{
-        7D92A1
-    }
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% NAME %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
 
-    \definecolor{namebottomtxt}{HTML}{
-        333333
-    }
+\definecolor{namelines}{HTML}{
+    333333
+}
 
-    \definecolor{nametoptxt}{HTML}{
-        7D92A1
-    }
-    \newcommand{\sectionlinethickness}{
-        1.3 pt
-    }
+\definecolor{nametoptxt}{HTML}{
+    7D92A1
+}
 
-    % size of the top name
-    % (units = pt)
-    \newcommand{\topnamesizevalue}{
-        23 pt
-    }
+\definecolor{namebottomtxt}{HTML}{
+    333333
+}
 
-    % size of the bottom name
-    % (units = pt)
-    \newcommand{\bottomnamesizevalue}{
-        15 pt
-    }
+\definecolor{nametoptxt}{HTML}{
+    7D92A1
+}
+\newcommand{\sectionlinethickness}{
+    1.3 pt
+}
 
-    % stretch of the top name
-    \newcommand{\topnamestretch}{
-        400
-    }
+% size of the top name
+% (units = pt)
+\newcommand{\topnamesizevalue}{
+    23 pt
+}
 
-    % stretch of the bottom name
-    \newcommand{\bottomnamestretch}{
-        100
-    }
+% size of the bottom name
+% (units = pt)
+\newcommand{\bottomnamesizevalue}{
+    15 pt
+}
+
+% stretch of the top name
+\newcommand{\topnamestretch}{
+    400
+}
+
+% stretch of the bottom name
+\newcommand{\bottomnamestretch}{
+    100
+}
 
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%% SECTION %%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
 
-    \newcommand{\leftcolumwidth}{
-        0.22
-    }
-    \newcommand{\rightcolumwidth}{
-        0.78
-    }
+\newcommand{\leftcolumwidth}{
+    0.22
+}
+\newcommand{\rightcolumwidth}{
+    0.78
+}
 
-    \newcommand {\sectiontitle}[1] {
-        \begin {flushleft}
-        \begin {minipage}[c]{\leftcolumwidth\textwidth}
-            \begin {flushright}
-            \!\MakeUppercase {#1}
-            \hspace* {10px}
-            \end {flushright}
-        \end {minipage}
-            \begin {tikzpicture}
-                \hspace{-4px}
-                \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
-            \end {tikzpicture}
-        \end {flushleft}
-    }
+\newcommand {\sectiontitle}[1] {
+    \begin {flushleft}
+    \begin {minipage}[c]{\leftcolumwidth\textwidth}
+        \begin {flushright}
+        \!\MakeUppercase {#1}
+        \hspace* {10px}
+        \end {flushright}
+    \end {minipage}
+        \begin {tikzpicture}
+            \hspace{-4px}
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
+        \end {tikzpicture}
+    \end {flushleft}
+}
 
 
 \begin{document}
@@ -96,10 +96,10 @@
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
         \vspace {0.35\baselineskip}
-        \begin {minipage}[t]{0.6\textwidth}
+        \begin {minipage}[t]{0.45\textwidth}
 
             \begin {tikzpicture}
-                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,2);
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.75);
             \end {tikzpicture}
 
             \vspace{0.2cm}
@@ -119,22 +119,23 @@
             \vspace{0.2cm}
 
             \begin {tikzpicture}
-                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,1.8);
+                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,1.75);
             \end {tikzpicture}
         \end {minipage}
         \hfill
         \vrule %height 20px depth 70px
-        \hfill
-        \begin {minipage}[t]{0.3\textwidth}
-
-            \faEnvelope  \hspace{4px} asdga@a.com
-            \\[6pt]
-            \faMobile    \hspace{7px} XYXYXYXY
-            \\[6pt]
-            \faMapMarker \hspace{7px} Earth
-            \\[6pt]
-            \faGithub    \hspace{5px} yref-boop
-
+        \hspace*{5pt}
+        \begin {minipage}[t]{0.375\textwidth}
+            \vspace*{\fill}
+            \begin {center}
+            \begin {tabular}{cl}
+                \faMapMarker & A Coruña, Galicia, Spain
+                \\[5pt] \faEnvelope  & todo
+                \\[5pt] \faMobile    & +34 698135841
+                \\[5pt] \faGithub    & yref-boop
+            \end {tabular}
+            \end {center}
+            \vspace*{\fill}
         \end {minipage}
 
     \end {minipage}
@@ -146,7 +147,71 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle{title}
+    \sectiontitle {about me}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \lipsum[4]
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% EDUCATION %%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {education}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \lipsum[4]
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% EXPERIENCE %%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {experience}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \lipsum[4]
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% LANGUAGES %%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {languages}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \begin {tabular}{cccccccc}
+            language & accreditation & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
+            \hline \\[-9px]
+            spanish & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+            galician & CELGA & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
+            english & Cambride & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
+            french & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
+
+        \end{tabular}
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%% SKILLS %%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {skills}
 
     % section contents
     \begin {flushright}
