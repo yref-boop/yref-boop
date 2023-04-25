@@ -3,7 +3,11 @@
 % page margins
 \usepackage[left=0.6in, right=0.7in, top=0.6in, bottom=0.6in] {geometry}
 
+% draw lines
 \usepackage {tikz}
+
+% hyperlinks
+\usepackage {hyperref}
 
 % lorem ipsum
 \usepackage {lipsum}
@@ -99,43 +103,52 @@
         \begin {minipage}[t]{0.45\textwidth}
 
             \begin {tikzpicture}
-                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.75);
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.5);
             \end {tikzpicture}
 
             \vspace{0.2cm}
 
             {\fontsize{\topnamesizevalue}{\topnamesizevalue}{
                 \color{nametoptxt} \bfseries
-                \!\!\MakeUppercase{yago}
+                \!\!\MakeUppercase {yago}
             }}
 
             \vspace{0.3cm}
 
             {\fontsize{\bottomnamesizevalue}{\bottomnamesizevalue}{
-                \color{namebottomtxt} %\bf %\fontone
-                \!\MakeUppercase{Fernández Rego}
+                \color{namebottomtxt}
+                \!\MakeUppercase {Fernández Rego}
+            }}
+
+            \vspace{0.2cm}
+
+            {\fontsize{\bottomnamesizevalue}{\bottomnamesizevalue}{
+                \color{namebottomtxt}
+                \!\MakeUppercase {software developer}
             }}
 
             \vspace{0.2cm}
 
             \begin {tikzpicture}
-                \draw[line width=\sectionlinethickness, namelines] (0,1) -- (0,1.75);
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.5);
             \end {tikzpicture}
         \end {minipage}
         \hfill
-        \vrule %height 20px depth 70px
+        \vrule
         \hspace*{5pt}
         \begin {minipage}[t]{0.375\textwidth}
+
             \vspace*{\fill}
             \begin {center}
             \begin {tabular}{cl}
                 \faMapMarker & A Coruña, Galicia, Spain
                 \\[5pt] \faEnvelope  & todo
                 \\[5pt] \faMobile    & +34 698135841
-                \\[5pt] \faGithub    & yref-boop
+                \\[5pt] \faGithub    & \href{https://github.com/yref-boop}{yref-boop}
             \end {tabular}
             \end {center}
             \vspace*{\fill}
+
         \end {minipage}
 
     \end {minipage}
@@ -166,7 +179,9 @@
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-        \lipsum[4]
+        \textbf {Universidade da Coruña, Facultade de Enxeñaría Informática}\\
+        \href{https://estudos.udc.es/en/study/start/614G01V01} {Bilingual Bachelor's Degree in Computer Engineering}\\
+        Speciallized in Computer Science
     \end {minipage}
     \end {flushright}
 
@@ -194,7 +209,9 @@
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
+
         \begin {tabular}{cccccccc}
+
             language & accreditation & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
             \hline \\[-9px]
             spanish & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
@@ -203,6 +220,7 @@
             french & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
 
         \end{tabular}
+
     \end {minipage}
     \end {flushright}
 
