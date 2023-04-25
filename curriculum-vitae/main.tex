@@ -72,10 +72,10 @@
 %%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand{\leftcolumwidth}{
-    0.22
+    0.18
 }
 \newcommand{\rightcolumwidth}{
-    0.78
+    0.82
 }
 
 \newcommand {\sectiontitle}[1] {
@@ -88,7 +88,7 @@
     \end {minipage}
         \begin {tikzpicture}
             \hspace{-4px}
-            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (14.65,0);
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (15.363,0);
         \end {tikzpicture}
     \end {flushleft}
 }
@@ -205,7 +205,7 @@
         \begin {minipage} [t] {0.3\textwidth}
             \textbf {Algorithm Analysis} \\ [-5px]
             \hrule
-            \vspace {4px} Empyrical and theoretical analysis of different implementations of several sorting algorithms
+            \vspace {4px} Empyrical and theoretical analysis of different implementations of several sorting algorithms.
             \vspace {-4px}
             \begin {itemize} [noitemsep]
             \item team size: 3
@@ -214,9 +214,9 @@
         \end {minipage}
         \hfill
         \begin {minipage} [t] {0.3\textwidth}
-            \textbf {Perceptron} (personal) \\ [-5px]
+            \textbf {Perceptron} \\ [-5px]
             \hrule
-            \vspace {4px} Implementation in vanilla Haskell of a working, uni-neuronal, Artificial Neural Network
+            \vspace {4px} Implementation in vanilla Haskell of a working, uni-neuronal, Artificial Neural Network.
             \vspace {-4px}
             \begin {itemize} [noitemsep]
                 \item team size: solo
@@ -227,8 +227,8 @@
         \begin {minipage} [t] {0.3\textwidth}
             \textbf {Distributed Systems} \\ [-5px]
             \hrule
-            \vspace {4px} Layered architecture implementation of a mock event management application
-            \vspace {-4}
+            \vspace {4px} Layered architecture implementation of a mock event management application using several tecnologies.
+            \vspace {-4px}
             \begin {itemize} [noitemsep]
                 \item team size: 3
                 \item language: Java
@@ -272,7 +272,27 @@
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-        \lipsum[4]
+        \begin {minipage} [t] {0.475\textwidth}
+            \textbf {Tecnical} \\ [-5px]
+            \hrule
+            \vspace {4px} Empyrical and theoretical analysis of different implementations of several sorting algorithms
+            \vspace {-4px}
+            \begin {itemize} [noitemsep]
+            \item team size: 3
+            \item language: C
+            \end {itemize}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.475\textwidth}
+            \textbf {Soft} \\ [-5px]
+            \hrule
+            \vspace {4px} Implementation in vanilla Haskell of a working, uni-neuronal, Artificial Neural Network
+            \vspace {-4px}
+            \begin {itemize} [noitemsep]
+                \item team size: solo
+                \item language: Haskell
+            \end {itemize}
+        \end {minipage}
     \end {minipage}
     \end {flushright}
 
