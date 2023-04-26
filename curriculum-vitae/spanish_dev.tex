@@ -1,6 +1,7 @@
 %! TEX program = pdf_escaped
 % ^ special comment for svg to load
 
+% format
 \documentclass [10pt, a4paper] {extarticle}
 
 % page margins
@@ -16,51 +17,33 @@
 \usepackage {lipsum}
 
 % bullet lists configs
-\usepackage{enumitem}
+\usepackage {enumitem}
 
-%icons
+% icons
 \usepackage {fontawesome5}
 \usepackage {wasysym}
 
-%qr code
+% qr code
 \usepackage {svg}
 
 % no page number
- \thispagestyle{empty}
+\thispagestyle {empty}
 
 %%%%%%%%%%%%%%%%%%%%%%
 %%%%%%% NAME %%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%
 
-\definecolor{namelines}{HTML}{
-    333333
-}
+% colours
+\definecolor {namelines} {HTML} { 333333 }
+\definecolor {nametoptxt} {HTML} { 7D92A1 }
+\definecolor {namebottomtxt} {HTML} { 333333 }
+\definecolor {nametoptxt} {HTML} { 7D92A1 }
 
-\definecolor{nametoptxt}{HTML}{
-    7D92A1
-}
+\newcommand{\sectionlinethickness} {1.3 pt }
 
-\definecolor{namebottomtxt}{HTML}{
-    333333
-}
-
-\definecolor{nametoptxt}{HTML}{
-    7D92A1
-}
-\newcommand{\sectionlinethickness}{
-    1.3 pt
-}
-
-%%%%%%%%%%%%%%%%%%%%%%
-%%%%%% SECTION %%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand{\leftcolumwidth}{
-    0.18
-}
-\newcommand{\rightcolumwidth}{
-    0.82
-}
+% section size
+\newcommand{\leftcolumwidth} {0.18 }
+\newcommand{\rightcolumwidth}{ 0.82 }
 
 \newcommand {\sectiontitle}[1] {
     \begin {flushleft}
@@ -111,7 +94,7 @@
 
             {\fontsize {15 pt} {15 pt}{
                 \color{namebottomtxt}
-                \!\MakeUppercase {software developer}
+                \!\MakeUppercase {desarrollador software}
             }}
 
             \vspace{0.2cm}
@@ -129,7 +112,7 @@
             \begin {center}
             \begin {tabular}{cl}
                 \faMapMarker & A Coruña, Galicia, Spain
-                \\[5pt] \faEnvelope  & yago.fernandez.rego@udc.es
+                \\[5pt] \faEnvelope  & \href {mailto:yago.fdez.rego@gmail.com} {yago.fdez.rego@gmail.com}
                 \\[5pt] \faMobile    & +34 698135841
                 \\[5pt] \faGithub    & \href {https://github.com/yref-boop}{yref-boop}
             \end {tabular}
@@ -147,12 +130,12 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle {about me}
+    \sectiontitle {sobre mi}
 
     % section contents
     \begin {flushright} \begin {minipage} [t] {\rightcolumwidth\textwidth}
-        Twenty years old Computer Science student and aspiring software developer. I enjoy creative problem solving and spending time understanding the inner workings of complex systems or theoretical concepts, as well as collaborating with others. \\ [3px]
-        I am looking for a role where I can grow and learn from experienced team members, while drawing on project expercience I have already executed.
+        Estudiante de Ingeniería Informática de 20 años, aspirante a ser desarrollador software. Disfruto de rosolver problemas así como de comprender el funcionamiento interno de sistemas complejos o conceptos teóricos, igual que colaborar con otros \\ [3px]
+        Busco un puesto donde pueda precer y aprender de compañeros más experimentados, mientras aporto experiencia en proyectos ya ejecutados.
     \end {minipage}
     \end {flushright}
 
@@ -161,16 +144,16 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle {education}
+    \sectiontitle {educación}
 
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
         \textbf {Universidade da Coruña, Facultade de Informática da Coruña}\\
-        \href {https://estudos.udc.es/en/study/start/614G01V01} {\textbf {Bilingual (Eng, Esp) Bachelor's Degree in Computer Engineering}}\\
-        \hspace* {6px} \textcolor{namebottomtxt} {September 2020 - Present} \\ [4px]
-        Specialized in Computer Science and Artificial Intelligence \\ [4px]
-        Relevant coursework: Discrete Mathematics, Algorithms, Programming Paradigms, Automatic Learning, Intelligent Systems, Concurrency and Parallelism, Software Design.
+        \href {https://estudos.udc.es/en/study/start/614G01V01} {\textbf {Grado Bilingüe (Esp, Ing) en Ingeniería Informática}}\\
+        \hspace* {6px} \textcolor{namebottomtxt} {Septiembre 2020 - Actualidad} \\ [4px]
+        Especializado en Ciencias de la Computación \\ [4px]
+        Asignaturas relevantes: Matemática Discreta, Algoritmos, Paradigmas de la Programación, Apredizaje Automático, Desarrollo de Sistemas Inteligentes, Diseño Software.
     \end {minipage}
     \end {flushright}
 
@@ -179,42 +162,42 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle {projects}
+    \sectiontitle {proyectos}
 
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-        While I lack profesional experience, I have participated in numerous academic projects, which helped me develop communication, problem solving and organization skills as well as familiarity with different technologies \\ [7px]
+        A pesar de no tener experiencia profesional, he participado en numerosos proyectos académicos, que me han ayudado a desarrollar habilidades de comunicación, organización y resolución de problemas, así como familiaridad con differentes tecnologías. \\ [7px]
         \begin {minipage} [t] {0.3\textwidth}
             \textbf {Algorithm Analysis} \\ [-5px]
             \hrule
-            \vspace {4px} Empyrical and theoretical analysis of different implementations of several sorting algorithms.
+            \vspace {4px} Análisis teórico y empírico de distintas implementaciones de algoritmos de ordenación.
             \vspace {-5px}
             \begin {itemize} [noitemsep]
-            \item team size: 3
-            \item language: C
+            \item tamaño equipo: 3
+            \item lenguaje: C
             \end {itemize}
         \end {minipage}
         \hfill
         \begin {minipage} [t] {0.3\textwidth}
             \href {https://github.com/yref-boop/ann} {\textbf {Neural Network}} \\ [-5px]
             \hrule
-            \vspace {4px} Implementation in vanilla Haskell of a working, uni-neuronal, Artificial Neural Network.
+            \vspace {4px} Implementación de una Red de Neuronas Artificiales evitando utilizar librerías externas.
             \vspace {-5px}
             \begin {itemize} [noitemsep]
-                \item team size: solo
-                \item language: Haskell
+                \item proyecto personal
+                \item lenguaje: Haskell
             \end {itemize}
         \end {minipage}
         \hfill
         \begin {minipage} [t] {0.3\textwidth}
             \textbf {Distributed Systems} \\ [-5px]
             \hrule
-            \vspace {4px} Layered architecture implementation of a mock event management application using several tecnologies.
+            \vspace {4px} Implementación utilizando arquitectura por capas de una aplicación de gestión de eventos
             \vspace {-5px}
             \begin {itemize} [noitemsep]
-                \item team size: 3
-                \item language: Java
+                \item tamaño equipo: 3
+                \item lenguaje: Java
             \end {itemize}
         \end {minipage}
     \end {minipage}
@@ -225,43 +208,43 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle {skill-set}
+    \sectiontitle {aptitudes}
 
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
 
-        \textbf {Technical Skills} \\ [4px]
-        I consider myself relatively flexible when it comes to new technologies. My current focus is developing general hard skills like logic, data structures, efficiency, paradigms... in order to be able to readily learn new technologies and languages.
+        \textbf {Habilidades Técnicas} \\ [4px]
+        Me considero relativamente flexible en lo referente a nuevas tecnologías. Actualmente me centro en conseguir habilidades generales como lógica, estructuras de dato, eficiencia, paradigmas... para poder aprender de forma fácil y rápida tecnologías y lenguajes nuevos.
         \vspace {-2px}
         \begin {itemize} [noitemsep]
-            \item Tools: JetBrains Suite, Neovim, Bash, LaTeX, Git
-            \item Languages: C, Haskell, Ocaml, Python, Java
+            \item Herramientas: JetBrains Suite, Neovim, Bash, LaTeX, Git
+            \item Lenguajes: C, Haskell, Ocaml, Python, Java
         \end {itemize}
 
         \begin {minipage} [t] {0.475\textwidth}
-            \textbf {Interests} \\ [4px]
-            There is a significant overlap between my technical profile and my personal interests:
+            \textbf {Intereses} \\ [4px]
+            Existen muchos elementos comunes entre mi perfil técnico y mis intereses personales:
             \vspace {-3px}
             \begin {itemize} [noitemsep]
-                \item Functional Programming
-                \item Artificial Intelligence
-                \item Academic Breakthroughs
+                \item Programación Funcional
+                \item Inteligencia Artificial
+                \item Avances Académicos
                 \item Open-Source
-                \item Latest Tecnologies
+                \item Últimas Tecnologías
             \end {itemize}
         \end {minipage}
         \hfill
         \begin {minipage} [t] {0.475\textwidth}
             \textbf {Soft Skills} \\ [4px]
-            Apart from my technical stack, I also possess the following interpersonal abilities:
+            Además de mi stack técnico, traigo conmigo las siguientes habilidades interpersonales:
             \vspace {-3px}
             \begin {itemize} [noitemsep]
-                \item Adaptability
-                \item Teamwork and Collaboration
-                \item Problem Solving
-                \item Independence
-                \item Curiosity
+                \item Adaptabilidad
+                \item Colaboración y Trabajo en Equipo
+                \item Resolución de Problemas
+                \item Independencia
+                \item Curiosidad
             \end {itemize}
         \end {minipage}
     \end {minipage}
@@ -276,7 +259,7 @@
     \begin {flushleft}
     \begin {minipage}[c]{\leftcolumwidth\textwidth}
         \begin {flushright}
-        \!\MakeUppercase {languages}
+        \!\MakeUppercase {idiomas}
         \hspace* {10px}
         \end {flushright}
     \end {minipage}
@@ -292,12 +275,12 @@
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
         \begin {minipage} [t] {0.7\textwidth}
             \begin {tabular} {llcccccc}
-                Language & Accreditation & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
+                Idioma & Acreditación & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
                 \hline \\[-9px]
-                Spanish & Native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
-                Galician & Native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
-                English & Cambridge & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
-                French & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
+                Español & Nativo & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                Gallego & Nativo & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                Inglés & Cambridge & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
+                Francés & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
             \end{tabular}
         \end {minipage}
         \hfill

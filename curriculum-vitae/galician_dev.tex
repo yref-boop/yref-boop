@@ -1,0 +1,296 @@
+%! TEX program = pdf_escaped
+% ^ special comment for svg to load
+
+% format
+\documentclass [10pt, a4paper] {extarticle}
+
+% page margins
+\usepackage [left=0.6in, right=0.7in, top=0.6in, bottom=0.6in] {geometry}
+
+% draw lines
+\usepackage {tikz}
+
+% hyperlinks
+\usepackage {hyperref}
+
+% lorem ipsum
+\usepackage {lipsum}
+
+% bullet lists configs
+\usepackage {enumitem}
+
+% icons
+\usepackage {fontawesome5}
+\usepackage {wasysym}
+
+% qr code
+\usepackage {svg}
+
+% no page number
+ \thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% NAME %%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+% colours
+\definecolor {namelines} {HTML} { 333333 }
+\definecolor {nametoptxt} {HTML}{ 7D92A1 }
+\definecolor {namebottomtxt} {HTML} { 333333 }
+\definecolor {nametoptxt} {HTML} { 7D92A1 }
+
+\newcommand{\sectionlinethickness} {1.3 pt }
+
+% section size
+\newcommand{\leftcolumwidth} {0.18 }
+\newcommand{\rightcolumwidth}{ 0.82 }
+
+\newcommand {\sectiontitle}[1] {
+    \begin {flushleft}
+    \begin {minipage}[c]{\leftcolumwidth\textwidth}
+        \begin {flushright}
+        \!\MakeUppercase {#1}
+        \hspace* {10px}
+        \end {flushright}
+    \end {minipage}
+        \begin {tikzpicture}
+            \hspace{-4px}
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (15.363,0);
+        \end {tikzpicture}
+    \end {flushleft}
+}
+
+
+\begin{document}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%% NAME %%%%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \vspace {0.35\baselineskip}
+        \begin {minipage}[t]{0.45\textwidth}
+
+            \begin {tikzpicture}
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.5);
+            \end {tikzpicture}
+
+            \vspace {0.2cm}
+
+            {\fontsize {23 pt} {23 pt}{
+                \color{nametoptxt} \bfseries
+                \!\!\MakeUppercase {yago}
+            }}
+
+            \vspace{0.3cm}
+
+            {\fontsize {15 pt} {15 pt}{
+                \color{namebottomtxt}
+                \!\MakeUppercase {Fernández Rego}
+            }}
+
+            \vspace {0.2cm}
+
+            {\fontsize {15 pt} {15 pt}{
+                \color{namebottomtxt}
+                \!\MakeUppercase {desenvolvedor software}
+            }}
+
+            \vspace{0.2cm}
+
+            \begin {tikzpicture}
+                \draw [line width=\sectionlinethickness, namelines] (0,1) -- (0,1.5);
+            \end {tikzpicture}
+        \end {minipage}
+        \hfill
+        \vrule
+        \hspace*{5pt}
+        \begin {minipage}[t]{0.375\textwidth}
+
+            \vspace*{\fill}
+            \begin {center}
+            \begin {tabular}{cl}
+                \faMapMarker & A Coruña, Galicia, Spain
+                \\[5pt] \faEnvelope  & \href {mailto:yago.fdez.rego@gmail.com} {yago.fdez.rego@gmail.com}
+                \\[5pt] \faMobile    & +34 698135841
+                \\[5pt] \faGithub    & \href {https://github.com/yref-boop}{yref-boop}
+            \end {tabular}
+            \end {center}
+            \vspace*{\fill}
+
+        \end {minipage}
+
+    \end {minipage}
+    \end {flushright}
+
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% ABOUT ME %%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {sobre min}
+
+    % section contents
+    \begin {flushright} \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        Estudante de Enxeñaría Informática de vinte anos aspirante a ser desenvolvedor software. Desfruto da resolución de problemas así coma entender o funcionamento interno de sistemas complexos ou concetos teóricos, así coma colaborar con outros \\[3px]
+        Busco un posto onde poida crecer e aprender de compañeiros máis experimentados, mentres aporto experiencia en proxectos que xa executei.
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% EDUCATION %%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {educación}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \textbf {Universidade da Coruña, Facultade de Informática da Coruña}\\
+        \href {https://estudos.udc.es/en/study/start/614G01V01} {\textbf {Grao Bilingüe (Esp, Ing) en Enxeñaría Informática}}\\
+        \hspace* {6px} \textcolor{namebottomtxt} {Setembro 2020 - Actualidade} \\ [4px]
+        Especialización en Ciencias da Computación \\ [4px]
+        Materias relevantes: Matemática Discreta, Algoritmos, Paradigmas da Programación, Aprendizaxe Automática, Desenvolvemento de Sistemas Intelixentes, Deseño de Software.
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% PROJECTS %%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {proxectos}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        Malia ter falta de experiencia profesional, teño participado en numerosos proxectos académicos, nos que desenvolvín habilidades de comunicación, solución de problemas e organización, así coma familiariade con distintas tecnoloxías \\ [7px]
+        \begin {minipage} [t] {0.3\textwidth}
+            \textbf {Algorithm Analysis} \\ [-5px]
+            \hrule
+            \hspace* {2px} Análise teórica e empírica da complexidade algorítimica de varios algoritmos de ordenamento.
+            \vspace {-5px}
+            \begin {itemize} [noitemsep]
+            \item tamaño do equipo: 3
+            \item linguaxe: C
+            \end {itemize}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.3\textwidth}
+            \href {https://github.com/yref-boop/ann} {\textbf {Neural Network}} \\ [-5px]
+            \hrule
+            \vspace {4px} Implementación en Haskell dunha Red de Neuronas Artificiais sen uso de librerías xa programadas.
+            \vspace {-5px}
+                \begin {itemize} [noitemsep]
+                \item proxecto independente
+                \item linguaxe: Haskell
+            \end {itemize}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.3\textwidth}
+            \textbf {Distributed Systems} \\ [-5px]
+            \hrule
+            \vspace {4px} Implementación utilizando arquitectura por capas dunha aplicación de xestión de eventos.
+            \vspace {-5px}
+            \begin {itemize} [noitemsep]
+                \item tamaño do equipo: 3
+                \item linguaxe: Java
+            \end {itemize}
+        \end {minipage}
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%%%% SKILLS %%%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    \sectiontitle {aptitudes}
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+
+        \textbf {Habilidades Técnicas} \\ [4px]
+        Considérome relativemente flexible con respecto novas tecnoloxías. Actualmente céntrome en desenvolver habilidades xerais coma lóxica, estruturas de datos, eficiencia, paradigmas... Para poder aprender rápida e doadamente tecnoloxías e linguaxes novas.
+        \vspace {-2px}
+        \begin {itemize} [noitemsep]
+            \item Ferramentas: JetBrains Suite, Neovim, Bash, LaTeX, Git
+            \item Linguaxes de programación: C, Haskell, Ocaml, Python, Java
+        \end {itemize}
+
+        \begin {minipage} [t] {0.475\textwidth}
+            \textbf {Intereses} \\ [4px]
+            Existen moitos elementos comúns entre o meu perfil técnico es os meus intereses persoais:
+            \vspace {-3px}
+            \begin {itemize} [noitemsep]
+                \item Programación Funcional
+                \item Intelixencia Artificial
+                \item Avances Académicos
+                \item Open-Source
+                \item Últimas Tecnoloxías
+            \end {itemize}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.475\textwidth}
+            \textbf {Soft Skills} \\ [4px]
+            Ademais do meu stack técnico, traio conmigo as seguintes habilidades interpersoais:
+            \vspace {-3px}
+            \begin {itemize} [noitemsep]
+                \item Adaptabilidade
+                \item Colaboración e Traballo en equipo
+                \item Resolución de Problemas
+                \item Independenza
+                \item Curiosidade
+            \end {itemize}
+        \end {minipage}
+    \end {minipage}
+    \end {flushright}
+
+    %%%%%%%%%%%%%%%%%%%%%%
+    %%%%% LANGUAGES %%%%%%
+    %%%%%%%%%%%%%%%%%%%%%%
+
+    % title & separator
+    %\sectiontitle {languages}
+    \begin {flushleft}
+    \begin {minipage}[c]{\leftcolumwidth\textwidth}
+        \begin {flushright}
+        \!\MakeUppercase {linguas}
+        \hspace* {10px}
+        \end {flushright}
+    \end {minipage}
+        \begin {tikzpicture}
+            \hspace{-4px}
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (10.5,0);
+        \end {tikzpicture}
+    \end {flushleft}
+
+
+    % section contents
+    \begin {flushright}
+    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+        \begin {minipage} [t] {0.7\textwidth}
+            \begin {tabular} {llcccccc}
+                Lingua & Acreditación & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
+                \hline \\[-9px]
+                Español & Nativo & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                Galego & Nativo & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                Inglés & Cambridge & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
+                Francés & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
+            \end{tabular}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.2\textwidth}
+        \vspace* {-30px}
+        \hspace* {12px}
+            \includesvg [width=60px, height=60px] {qr_code}
+        \end {minipage}
+    \end {minipage}
+    \end {flushright}
+
+
+\end{document}
