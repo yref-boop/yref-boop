@@ -1,3 +1,6 @@
+%! TEX program = pdf_escaped
+% ^ special comment for svg to load
+
 \documentclass [10pt, a4paper] {extarticle}
 
 % page margins
@@ -18,6 +21,9 @@
 %icons
 \usepackage {fontawesome5}
 \usepackage {wasysym}
+
+%qr code
+\usepackage {svg}
 
 % no page number
  \thispagestyle{empty}
@@ -166,8 +172,7 @@
     \sectiontitle {about me}
 
     % section contents
-    \begin {flushright}
-    \begin {minipage} [t] {\rightcolumwidth\textwidth}
+    \begin {flushright} \begin {minipage} [t] {\rightcolumwidth\textwidth}
         Twenty years old Computer Science student and aspiring software developer. I enjoy creative problem solving and spending time understanding the inner workings of complex systems or theoretical concepts, as well as collaborating with others. \\ [3px]
         Looking for a role where I can grow and learn from experienced team members, while drawing on project expercience I have already executed.
     \end {minipage}
@@ -289,26 +294,41 @@
     %%%%%%%%%%%%%%%%%%%%%%
 
     % title & separator
-    \sectiontitle {languages}
+    %\sectiontitle {languages}
+    \begin {flushleft}
+    \begin {minipage}[c]{\leftcolumwidth\textwidth}
+        \begin {flushright}
+        \!\MakeUppercase {languages}
+        \hspace* {10px}
+        \end {flushright}
+    \end {minipage}
+        \begin {tikzpicture}
+            \hspace{-4px}
+            \draw [line width=\sectionlinethickness, namelines] (1,0) -- (15.363,0);
+        \end {tikzpicture}
+    \end {flushleft}
+
 
     % section contents
     \begin {flushright}
     \begin {minipage} [t] {\rightcolumwidth\textwidth}
-
-        \begin {tabular} {llcccccc}
-
-            language & accreditation & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
-            \hline \\[-9px]
-            spanish & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
-            galician & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
-            english & Cambride & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
-            french & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
-
-        \end{tabular}
-
+        \begin {minipage} [t] {0.6\textwidth}
+            \begin {tabular} {llcccccc}
+                language & accreditation & A1 & A2 & B1 & B2 & C1 & C2 \\[2px]
+                \hline \\[-9px]
+                spanish & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                galician & native & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon \\
+                english & Cambridge & \newmoon & \newmoon & \newmoon & \newmoon & \newmoon & \fullmoon \\
+                french & DELF & \newmoon & \newmoon & \newmoon & \fullmoon & \fullmoon & \fullmoon \\
+            \end{tabular}
+        \end {minipage}
+        \hfill
+        \begin {minipage} [t] {0.2\textwidth}
+        \hfill
+        \vfill
+        \includesvg [width=60px, height=60px] {qr_code}
+        \end {minipage}
     \end {minipage}
     \end {flushright}
-
-
 
 \end{document}
